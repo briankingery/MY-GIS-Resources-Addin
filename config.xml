@@ -1,0 +1,22 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>GIS Resources</Name><AddInID>{9e77e02e-8dfc-4c66-9adb-015bef6912fb}</AddInID><Description>Addin containing helpful links to assist GIS Analysts</Description><Version>0.1</Version><Image>Images\GISResources.png</Image><Author>Brian Kingery</Author><Company /><Date>08/09/2016</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="GIS_Resources_addin.py" namespace="GIS_Resources_addin"><ArcMap>
+    <Commands>
+        <Button caption="ArcGIS Online" category="GIS Resources" class="ArcGISOnline" id="GIS_Resources_addin.button" image="Images\ArcGISOnline.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="ArcPy" category="GIS Resources" class="ArcPy" id="GIS_Resources_addin.button_1" image="Images\arcpy.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="GitHub" category="GIS Resources" class="GitHub" id="GIS_Resources_addin.button_2" image="Images\github.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="YouTube" category="GIS Resources" class="YouTube" id="GIS_Resources_addin.button_3" image="Images\youtube.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="ArcGIS Open Data" category="GIS Resources" class="ArcGISOpenData" id="GIS_Resources_addin.button_4" image="Images\Open_Data.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="ArcGIS JavaScript" category="GIS Resources" class="ArcGISJavaScript" id="GIS_Resources_addin.button_5" image="Images\js.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="JavaScript Sandbox" category="GIS Resources" class="JavaScriptSandbox" id="GIS_Resources_addin.button_6" image="Images\sandbox.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="JavaScript Docs" category="GIS Resources" class="JavaScriptDocs" id="GIS_Resources_addin.button_7" image="Images\w3schools-logo.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Google Maps" category="GIS Resources" class="GoogleMaps" id="GIS_Resources_addin.button_8" image="Images\googlemaps.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="Bing Birds Eye" category="GIS Resources" class="BingBirdsEye" id="GIS_Resources_addin.button_9" image="Images\BirdsEye.png" message="" tip=""><Help heading="" /></Button>
+        <Button caption="GIS StackExchange" category="GIS Resources" class="GISStackExchange" id="GIS_Resources_addin.button_10" image="Images\gisstackexchange.png" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="My GIS Resources" category="GIS Resources" id="GIS_Resources_addin.toolbar" showInitially="true"><Items><Button refID="GIS_Resources_addin.button" /><Button refID="GIS_Resources_addin.button_1" /><Button refID="GIS_Resources_addin.button_2" /><Button refID="GIS_Resources_addin.button_3" /><Button refID="GIS_Resources_addin.button_4" /><Button refID="GIS_Resources_addin.button_5" /><Button refID="GIS_Resources_addin.button_6" /><Button refID="GIS_Resources_addin.button_7" /><Button refID="GIS_Resources_addin.button_8" /><Button refID="GIS_Resources_addin.button_9" /><Button refID="GIS_Resources_addin.button_10" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
